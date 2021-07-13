@@ -5,7 +5,7 @@ const compression = require("compression");
 
 const PORT = process.env.PORT || 3000;
 
-const db = requre("./models")
+const db = require("./models")
 
 const app = express();
 
